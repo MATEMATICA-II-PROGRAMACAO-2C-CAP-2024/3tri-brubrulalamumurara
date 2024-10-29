@@ -2,9 +2,16 @@
  :root{
     --cor-de-fundo: #EBECEE;
     --branco:#FFFFFF;
+    --laranja: #EB9B00;
+    --degrade: linear-gradient(90deg, rgba(0,255,216,1) 0%, rgba(250,0,255,1) 50%, rgba(139,0,255,1) 100%);
+    --fonte-principal:"poppins";
+
  }
  body{
     background-color: var(--cor-de-fundo);
+    font-family: var (--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 
  }    
        .cabecalho{
